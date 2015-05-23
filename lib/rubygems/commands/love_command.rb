@@ -12,7 +12,9 @@ class Gem::Commands::LoveCommand < Gem::Command
 	end
 
 	def description
-		"Records your appreciation for a gem on gemlove.org"
+		<<END
+Records your appreciation for a gem on gemlove.org
+END
 	end
 
 	def execute
